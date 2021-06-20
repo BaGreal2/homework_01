@@ -36,7 +36,7 @@ function listContacts() {
             name,
             phone,
             email,
-            id: contacts.length + 2,
+            id: contacts.length + 1,
         })
         fs.writeFile(contactsPath, JSON.stringify(contacts));
     })  
